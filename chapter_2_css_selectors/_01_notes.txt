@@ -1,0 +1,52 @@
+selectors -> to target the things to apply css
+
+direct elements ->
+    p{
+        --> will be applied to all the paragraphs 
+    }
+    
+    body{
+        -> to the big body container
+    }
+
+    *{
+        ->  universal selector   applies to all the things
+    }
+classes ->
+    .className{
+
+    }
+
+combination ->
+    h1, h2{
+        -> will be applied to both h1 and h2
+    }
+
+    p span{
+        will search for span inside p
+    }
+
+
+notes -> css is read from top to bottom and rules written below will be applied except for more specific selector
+i.e let's say class and element selector are compared then class is more specific so class rules are applied
+
+inheritance -> property inherited by an element from its parent element
+
+eg
+
+body{
+    -> if some code of body is applied to other elements than it is inheritance
+}
+
+*{
+    -> this is not inheritance it is selection of all the elements
+}
+
+specificity -> id > class > element
+
+also
+
+p{
+    color: purple!important    --> increases specificity
+}
+
