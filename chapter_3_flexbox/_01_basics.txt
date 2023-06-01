@@ -1,0 +1,42 @@
+CSS Flexbox
+
+The CSS Flexible box allows you to design flexible and efficient layouts, align and distribute space among items in a container.
+
+it provides a lot of flexibility.
+arrange items
+spacing
+alignment
+order of items
+
+Terminology----
+
+Flex Container -> outer box
+Flex itmes -> inner boxes
+Main axis -> left ro right axis
+    Main start -> start of main axis
+    Main end -> end of main axis
+Cross axis, Cross Start, Cross end are the vertical version of main.
+
+
+Flex container properties
+
+1. display
+2. flex-direction
+3. flex-wrap
+4. flex-flow
+5. column-gap
+6. row-gap
+7. gap
+8. justify-content
+9. align-items
+10. align-content
+
+
+1. display -> to convert a normal container to a flex box we need to set display: flex;
+
+
+2. flex-direction -> row , row-reverse
+
+3. justify-content -> flex-start, flex-end, center, space-between
+
+

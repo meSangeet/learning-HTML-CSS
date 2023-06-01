@@ -1,20 +1,21 @@
 css - cascading stylesheet
 
-cs can be added to html file in 3 ways
+cs can be added to html file in 3 ways             
 1. inline css
-        style = "color: green; border: 2px;"
+        style = "color: green; border: 2px;"        
 2. internal css
         <style>
             p{
-                ---
-            }
+                ---                                 
+            }                                       
         </style>
 3. external css 
         <link rek="stylesheet" href="css/style.css">
 
-preferences - inline > internal > external
 
-in the code
+preferences - inline > internal > external           
+
+in the code                                         
 
 p{
     color: red;
