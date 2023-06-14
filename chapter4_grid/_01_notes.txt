@@ -1,0 +1,21 @@
+CSS grid
+
+it offers a grid based layout systems, with rows and columns, making it easier to design web pages without having to use floats and positioning.
+
+A grid layout consists of a parent element, with one or more child elements.
+
+an html element becomes grid container when its display property is set to grid.
+all direct childern of the grid container automatically becomes grid items.
+
+Grid containes grid columns, grid rows and grid gaps,
+we can adjust grid gap by changing the properties
+1. column-gap
+2. row-gap
+3. gap
+
+eg code snippet
+
+.grid-container{
+    display: grid;
+    row-gap: 50px;
+}
