@@ -50,3 +50,22 @@ p{
     color: purple!important    --> increases specificity
 }
 
+#para1{
+    stylings;
+}  -> will be applied to the id = "para1"
+
+div, p{
+    selects all <div> elements and all <p> 
+    elements 
+}
+
+
+
+
+* CSS comments ---> 
+
+    /*
+    -- comments
+    */
+
+

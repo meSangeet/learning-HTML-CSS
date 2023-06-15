@@ -114,3 +114,24 @@ Named grid items can be reffered to by the grid-template-area property of the gr
 
 each row is defined by apostrophes(' '). A period sign represents a grid item with no name.
 
+
+    A complete code snippet example - 
+
+    .item1{grid-area: header;}
+    .item2{grid-area: menu;}
+    .item3{grid-area: main;}
+    .item4{grid-area: right;}
+    .item5{grid-area: footer;}
+
+    .grid-container{
+        grid-template-areas:
+        'header header header header header header' 
+        'menu main main main right right'
+        'menu footer footer footer footer footer';
+    }
+
+*Order of items in the grid ---->
+
+The grid layout allows us to position the items anywhere we like. The first item in the HTML code does not have to appear as the first item in the grid.
+
+.item1{grid-area: 1 / 3 / 2 / 4;}
