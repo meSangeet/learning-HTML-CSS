@@ -1,0 +1,25 @@
+*CSS backgrounds ---- > 
+
+CSS background properties are used to add background effects for the elements.
+
+1. background-color -> 
+
+    specifies background color of an element.
+
+2. opacity -> can take value from 0 to 1.
+    lesser is the value. lesser is intensity of colour.
+
+    code snippet -> 
+
+    div{
+        background-color: green;
+        opcity: 0.3;
+    }
+
+3. background-image -> specifies an image to use as the background of an element.
+
+    background-image: url(" ... ");
+
+4. background-repeat -> 
+
+    the background-image property repeats an image both horizontally and vertically.
